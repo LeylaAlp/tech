@@ -3,11 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Kategori;
 
 class KategoriController extends Controller
 {
-    public function index()
+    public function index($slug_kategoriadi)
     {
-        return view('kategori');
+        $kategoriler=Kategori::where('slug',$slug_kategoriadi)->firstOrFail();
+        $alt_kategoriler=Kategori::where('ust_id',$kategoriler->id)->get();
+        return view('kategori',compact('kategoriler','alt_kategoriler'));
     }
 }

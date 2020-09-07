@@ -24,27 +24,15 @@
     <div class="banner">
         <div class="container">
             <div class="row">
+                @foreach($kategoriler as $kategori)
                 <div class="col-md-4">
-                    <div class="banner_item align-items-center" style="background-image:url(images/banner_1.jpg)">
+                    <div class="banner_item align-items-center" style="background-image:url(/images/banner/banner_1.jpg)">
                         <div class="banner_category">
-                            <a href="categories.html">women's</a>
+                            <a href="{{ route('kategori',$kategori->slug) }}">{{ $kategori->kategori_adi }}</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="banner_item align-items-center" style="background-image:url(images/banner_2.jpg)">
-                        <div class="banner_category">
-                            <a href="categories.html">accessories's</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="banner_item align-items-center" style="background-image:url(images/banner_3.jpg)">
-                        <div class="banner_category">
-                            <a href="categories.html">men's</a>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </div>
@@ -65,9 +53,11 @@
                     <div class="new_arrivals_sorting">
                         <ul class="arrivals_grid_sorting clearfix button-group filters-button-group">
                             <li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center active is-checked" data-filter="*">all</li>
-                            <li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".women">women's</li>
-                            <li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".accessories">accessories</li>
-                            <li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".men">men's</li>
+                            @foreach($kategoriler as $kategori)
+                            <li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".women">
+                                {{ $kategori->kategori_adi }}
+                            </li>
+                            @endforeach
                         </ul>
                     </div>
                 </div>
@@ -75,7 +65,7 @@
             <div class="row">
                 <div class="col">
                     <div class="product-grid" data-isotope='{ "itemSelector": ".product-item", "layoutMode": "fitRows" }'>
-
+<!-- ürünler alanını yaptıktan sonra buradaki classlara göre (product-item men ,voman alanlarına göre) döngü oluştur ve oraya urunleri çek -->
                         <!-- Product 1 -->
 
                         <div class="product-item men">

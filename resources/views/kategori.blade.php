@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Kategori')
+@section('title', $kategoriler->kategori_adi )
 @section('head')
     <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
     <link href="/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -23,8 +23,8 @@
 
                 <div class="breadcrumbs d-flex flex-row align-items-center">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="index.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's</a></li>
+                        <li><a href="{{ route('anasayfa') }}">Anasayfa</a></li>
+                        <li class="active"><a href="{{ route('kategori',$kategoriler->slug) }}"><i class="fa fa-angle-right" aria-hidden="true"></i>{{ $kategoriler->kategori_adi }}</a></li>
                     </ul>
                 </div>
 
@@ -33,66 +33,17 @@
                 <div class="sidebar">
                     <div class="sidebar_section">
                         <div class="sidebar_title">
-                            <h5>Product Category</h5>
+                            <h5>{{ $kategoriler->kategori_adi }}</h5>
                         </div>
                         <ul class="sidebar_categories">
-                            <li><a href="#">Men</a></li>
-                            <li class="active"><a href="#"><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>Women</a></li>
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">New Arrivals</a></li>
-                            <li><a href="#">Collection</a></li>
-                            <li><a href="#">Shop</a></li>
+                            @foreach($alt_kategoriler as $alt_kategori)
+                            <li><a href="{{ route('kategori',$alt_kategori->slug) }}">{{ $alt_kategori->kategori_adi }}</a></li>
+                           @endforeach
                         </ul>
                     </div>
 
-                    <!-- Price Range Filtering -->
-                    <div class="sidebar_section">
-                        <div class="sidebar_title">
-                            <h5>Filter by Price</h5>
-                        </div>
-                        <p>
-                            <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-                        </p>
-                        <div id="slider-range"></div>
-                        <div class="filter_button"><span>filter</span></div>
-                    </div>
 
-                    <!-- Sizes -->
-                    <div class="sidebar_section">
-                        <div class="sidebar_title">
-                            <h5>Sizes</h5>
-                        </div>
-                        <ul class="checkboxes">
-                            <li><i class="fa fa-square-o" aria-hidden="true"></i><span>S</span></li>
-                            <li class="active"><i class="fa fa-square" aria-hidden="true"></i><span>M</span></li>
-                            <li><i class="fa fa-square-o" aria-hidden="true"></i><span>L</span></li>
-                            <li><i class="fa fa-square-o" aria-hidden="true"></i><span>XL</span></li>
-                            <li><i class="fa fa-square-o" aria-hidden="true"></i><span>XXL</span></li>
-                        </ul>
-                    </div>
 
-                    <!-- Color -->
-                    <div class="sidebar_section">
-                        <div class="sidebar_title">
-                            <h5>Color</h5>
-                        </div>
-                        <ul class="checkboxes">
-                            <li><i class="fa fa-square-o" aria-hidden="true"></i><span>Black</span></li>
-                            <li class="active"><i class="fa fa-square" aria-hidden="true"></i><span>Pink</span></li>
-                            <li><i class="fa fa-square-o" aria-hidden="true"></i><span>White</span></li>
-                            <li><i class="fa fa-square-o" aria-hidden="true"></i><span>Blue</span></li>
-                            <li><i class="fa fa-square-o" aria-hidden="true"></i><span>Orange</span></li>
-                            <li><i class="fa fa-square-o" aria-hidden="true"></i><span>White</span></li>
-                            <li><i class="fa fa-square-o" aria-hidden="true"></i><span>Blue</span></li>
-                            <li><i class="fa fa-square-o" aria-hidden="true"></i><span>Orange</span></li>
-                            <li><i class="fa fa-square-o" aria-hidden="true"></i><span>White</span></li>
-                            <li><i class="fa fa-square-o" aria-hidden="true"></i><span>Blue</span></li>
-                            <li><i class="fa fa-square-o" aria-hidden="true"></i><span>Orange</span></li>
-                        </ul>
-                        <div class="show_more">
-                            <span><span>+</span>Show More</span>
-                        </div>
-                    </div>
 
                 </div>
 
