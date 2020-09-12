@@ -10,10 +10,16 @@ class Kategori extends Model
 
     use SoftDeletes;
 
-    protected $table="kategori";
+    protected $table = "kategori";
 //    protected $fillable=['kategori_adi','slug'];
-    protected $guarded=[];
+    protected $guarded = [];
     const CREATED_AT = 'olusturulma_tarihi';
     const UPDATED_AT = 'guncelleme_tarihi';
     const DELETED_AT = 'silinme_tarihi';
+
+
+    public function urunler()
+    {
+        return $this->belongsToMany('App\Models\Urun','kategori_urun');
+    }
 }

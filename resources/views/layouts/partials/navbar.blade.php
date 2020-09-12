@@ -1,3 +1,7 @@
+
+
+
+
 <header class="header trans_300">
 
     <!-- Top Navigation -->
@@ -62,8 +66,9 @@
             <div class="row">
                 <div class="col-lg-12 text-right">
                     <div class="logo_container">
-                        <a href="#">colo<span>shop</span></a>
+                        <a href="{{ route('anasayfa') }}">colo<span>shop</span></a>
                     </div>
+                    &nbsp; &nbsp;&nbsp;
                     <nav class="navbar">
                         <ul class="navbar_menu">
                             <li><a href="#">home</a></li>
@@ -74,7 +79,24 @@
                             <li><a href="contact.html">contact</a></li>
                         </ul>
                         <ul class="navbar_user">
-                            <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                            <li>
+                                <div class="s128">
+                                    <form method="POST" action="{{ route('urun_ara') }}">
+                                        @csrf
+                                        <div class="inner-form">
+                                            <div class="row">
+                                                <div class="input-field first" id="first">
+                                                    <input  name="aranan" class="input" id="inputFocus" type="text" placeholder="Keyword"
+                                                    value="{{ old('aranan') }}"/>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </li>
                             <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
                             <li class="checkout">
                                 <a href="#">
@@ -142,3 +164,35 @@
         </ul>
     </div>
 </div>
+
+
+
+<script>
+    var btnDelete = document.getElementById('clear');
+    var inputFocus = document.getElementById('inputFocus');
+    //- btnDelete.on('click', function(e) {
+    //-   e.preventDefault();
+    //-   inputFocus.classList.add('isFocus')
+    //- })
+    //- inputFocus.addEventListener('click', function() {
+    //-   this.classList.add('isFocus')
+    //- })
+    btnDelete.addEventListener('click', function(e)
+    {
+        e.preventDefault();
+        inputFocus.value = ''
+    })
+    document.addEventListener('click', function(e)
+    {
+        if (document.getElementById('first').contains(e.target))
+        {
+            inputFocus.classList.add('isFocus')
+        }
+        else
+        {
+            // Clicked outside the box
+            inputFocus.classList.remove('isFocus')
+        }
+    });
+
+</script>

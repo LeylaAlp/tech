@@ -12,6 +12,9 @@ class KategoriTableSeeder extends Seeder
      */
     public function run()
     {
+
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+
         DB::table('kategori')->truncate();
         $id=DB::table('kategori')->insertGetId(['kategori_adi' => 'Kadın', 'slug' => 'kadin']);
         DB::table('kategori')->insert(['kategori_adi' => 'Elbise','slug' => 'elbise','ust_id' => $id]);
@@ -40,5 +43,13 @@ class KategoriTableSeeder extends Seeder
         DB::table('kategori')->insert(['kategori_adi' =>'Fular','slug'=>'fular','ust_id'=>$id]);
         DB::table('kategori')->insert(['kategori_adi' =>'Çanta','slug'=>'canta','ust_id'=>$id]);
 
+
+
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+
+
     }
+
+
+
 }

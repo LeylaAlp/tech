@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Ürün')
+@section('title',$urun->urun_adi)
 
 @section('head')
     <link rel="stylesheet" type="text/css" href="/styles/bootstrap4/bootstrap.min.css">
@@ -11,6 +11,9 @@
     <link rel="stylesheet" type="text/css" href="/plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="/styles/single_styles.css">
     <link rel="stylesheet" type="text/css" href="/styles/single_responsive.css">
+
+
+
     @endsection
 
 
@@ -24,9 +27,12 @@
 
                 <div class="breadcrumbs d-flex flex-row align-items-center">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="categories.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's</a></li>
-                        <li class="active"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Single Product</a></li>
+                        <li><a href="{{ route('anasayfa') }}">Anasayfa</a></li>
+                        @foreach($kategoriler as $kategori)
+                        <li><a href="{{ route('kategori',$kategori->slug) }}"><i class="fa fa-angle-right" aria-hidden="true">
+                                </i>{{ $kategori->kategori_adi }}</a></li>
+                        @endforeach
+                        <li class="active"><i class="fa fa-angle-right" aria-hidden="true"></i>{{ $urun->urun_adi }}</li>
                     </ul>
                 </div>
 
@@ -39,6 +45,7 @@
                     <div class="row">
                         <div class="col-lg-3 thumbnails_col order-lg-1 order-2">
                             <div class="single_product_thumbnails">
+                                <!--   -->
                                 <ul>
                                     <li><img src="/images/single_1_thumb.jpg" alt="" data-image="images/single_1.jpg"></li>
                                     <li class="active"><img src="/images/single_2_thumb.jpg" alt="" data-image="images/single_2.jpg"></li>
@@ -57,41 +64,26 @@
             <div class="col-lg-5">
                 <div class="product_details">
                     <div class="product_details_title">
-                        <h2>Pocket cotton sweatshirt</h2>
-                        <p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut...</p>
+                        <h2>{{ $urun->urun_adi }}</h2>
+                        <p>{{ $urun->aciklama }}</p>
                     </div>
                     <div class="free_delivery d-flex flex-row align-items-center justify-content-center">
-                        <span class="ti-truck"></span><span>free delivery</span>
+                        <span class="ti-truck"></span><span>Ücretsiz Teslimat</span>
                     </div>
-                    <div class="original_price">$629.99</div>
-                    <div class="product_price">$495.00</div>
-                    <ul class="star_rating">
-                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                    </ul>
-                    <div class="product_color">
-                        <span>Select Color:</span>
-                        <ul>
-                            <li style="background: #e54e5d"></li>
-                            <li style="background: #252525"></li>
-                            <li style="background: #60b3f3"></li>
-                        </ul>
-                    </div>
-                    <div class="quantity d-flex flex-column flex-sm-row align-items-sm-center">
-                        <span>Quantity:</span>
-                        <div class="quantity_selector">
-                            <span class="minus"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                            <span id="quantity_value">1</span>
-                            <span class="plus"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                        </div>
-                        <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
-                        <div class="product_favorite d-flex flex-column align-items-center justify-content-center"></div>
-                    </div>
+                   <br>
+                    <br>
+                    <div class="product_price">{{ $urun->fiyati }} ₺</div>
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                        <button type="button" class="btn btn-danger btn-md btn-block"><a class="active" href="#">Sepete Ekle</a></button>
+
                 </div>
             </div>
+
         </div>
 
     </div>
@@ -105,9 +97,8 @@
                 <div class="col">
                     <div class="tabs_container">
                         <ul class="tabs d-flex flex-sm-row flex-column align-items-left align-items-md-center justify-content-center">
-                            <li class="tab active" data-active-tab="tab_1"><span>Description</span></li>
-                            <li class="tab" data-active-tab="tab_2"><span>Additional Information</span></li>
-                            <li class="tab" data-active-tab="tab_3"><span>Reviews (2)</span></li>
+                            <li class="tab active" data-active-tab="tab_1"><span>Reviews (2)</span></li>
+
                         </ul>
                     </div>
                 </div>
@@ -115,58 +106,11 @@
             <div class="row">
                 <div class="col">
 
-                    <!-- Tab Description -->
 
-                    <div id="tab_1" class="tab_container active">
-                        <div class="row">
-                            <div class="col-lg-5 desc_col">
-                                <div class="tab_title">
-                                    <h4>Description</h4>
-                                </div>
-                                <div class="tab_text_block">
-                                    <h2>Pocket cotton sweatshirt</h2>
-                                    <p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut...</p>
-                                </div>
-                                <div class="tab_image">
-                                    <img src="/images/desc_1.jpg" alt="">
-                                </div>
-                                <div class="tab_text_block">
-                                    <h2>Pocket cotton sweatshirt</h2>
-                                    <p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut...</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 offset-lg-2 desc_col">
-                                <div class="tab_image">
-                                    <img src="/images/desc_2.jpg" alt="">
-                                </div>
-                                <div class="tab_text_block">
-                                    <h2>Pocket cotton sweatshirt</h2>
-                                    <p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut...</p>
-                                </div>
-                                <div class="tab_image desc_last">
-                                    <img src="/images/desc_3.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Tab Additional Info -->
-
-                    <div id="tab_2" class="tab_container">
-                        <div class="row">
-                            <div class="col additional_info_col">
-                                <div class="tab_title additional_info_title">
-                                    <h4>Additional Information</h4>
-                                </div>
-                                <p>COLOR:<span>Gold, Red</span></p>
-                                <p>SIZE:<span>L,M,XL</span></p>
-                            </div>
-                        </div>
-                    </div>
 
                     <!-- Tab Reviews -->
 
-                    <div id="tab_3" class="tab_container">
+                    <div id="tab_1" class="tab_container active">
                         <div class="row">
 
                             <!-- User Reviews -->

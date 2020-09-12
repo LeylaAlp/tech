@@ -538,15 +538,15 @@ section
 {
 	width: 100%;
 	background: #FFFFFF;
-	box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
+	/*box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);*/
 }
 .navbar
 {
 	width: auto;
 	height: 100px;
 	float: right;
-	padding-left: 0px;
-	padding-right: 0px;
+	/*padding-left: 0px;*/
+	/*padding-right: 0px;*/
 }
 .navbar_menu li
 {
@@ -554,12 +554,13 @@ section
 }
 .navbar_menu li a
 {
-	display: block;
+	/*display: block;*/
 	color: #1e1e27;
 	font-size: 13px;
 	font-weight: 500;
 	text-transform: uppercase;
 	padding: 20px;
+    margin-top: 15px;
 	-webkit-transition: color 0.3s ease;
 	-moz-transition: color 0.3s ease;
 	-ms-transition: color 0.3s ease;
@@ -570,10 +571,10 @@ section
 {
 	color: #b5aec4;
 }
-.navbar_user
-{
-	margin-left: 37px;
-}
+/*.navbar_user*/
+/*{*/
+	/*margin-left: 37px;*/
+/*}*/
 .navbar_user li
 {
 	display: inline-block;
@@ -805,7 +806,7 @@ section
 }
 .logo_container a
 {
-	font-size: 24px;
+	font-size: 20px;
 	color: #1e1e27;
 	font-weight: 700;
 	text-transform: uppercase;
