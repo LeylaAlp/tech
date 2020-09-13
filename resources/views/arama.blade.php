@@ -107,7 +107,11 @@
                                         @endforeach
                                     </div>
 
-                                    {{ $urunler->links() }}
+                                    <br>
+                                    <br>
+                                    <br>
+
+                                    {{ $urunler->appends(['aranan' => old('aranan')])->links() }}
 
                                     <!-- Product Sorting -->
 

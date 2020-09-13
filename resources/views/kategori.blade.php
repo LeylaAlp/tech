@@ -21,6 +21,7 @@
 
 
 
+
                 @if(count($urunler)==0)
                     <img src="/images/hata-kategori.png" alt="">
                   @else
@@ -53,6 +54,8 @@
                     </div>
 
                 </div>
+
+
 
                 <!-- Main Content -->
 
@@ -115,8 +118,19 @@
                                     </div>
                                         @endforeach
 
-
                                 </div>
+
+
+
+
+
+
+
+                                <br>
+                                <br>
+                                <br>
+
+                                {{ $urunler->links() }}
 
                                 <!-- Product Sorting -->
 

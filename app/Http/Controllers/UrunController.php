@@ -21,7 +21,7 @@ class UrunController extends Controller
         $aranan=$request->input('aranan');
         $urunler=Urun::where('urun_adi','like',"%$aranan%")
             ->orWhere('aciklama','like',"%$aranan%")
-            ->paginate(2);
+            ->paginate(8);
 //            ->get();
 
 
