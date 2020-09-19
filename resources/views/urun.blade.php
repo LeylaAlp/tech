@@ -113,14 +113,14 @@
                     <div id="tab_1" class="tab_container active">
                         <div class="row">
 
-                            <!-- User Reviews -->
+                            <!-- Kullanici Reviews -->
 
                             <div class="col-lg-6 reviews_col">
                                 <div class="tab_title reviews_title">
                                     <h4>Reviews (2)</h4>
                                 </div>
 
-                                <!-- User Review -->
+                                <!-- Kullanici Review -->
 
                                 <div class="user_review_container d-flex flex-column flex-sm-row">
                                     <div class="user">
@@ -142,7 +142,7 @@
                                     </div>
                                 </div>
 
-                                <!-- User Review -->
+                                <!-- Kullanici Review -->
 
                                 <div class="user_review_container d-flex flex-column flex-sm-row">
                                     <div class="user">

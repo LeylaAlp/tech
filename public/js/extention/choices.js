@@ -2700,7 +2700,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }
 	      };
 
-	      // User's custom templates
+	      // Kullanici's custom templates
 	      var callbackTemplate = this.config.callbackOnCreateTemplates;
 	      var userTemplates = {};
 	      if (callbackTemplate && (0, _utils.isType)('Function', callbackTemplate)) {

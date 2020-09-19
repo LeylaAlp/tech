@@ -9,8 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="author" content="colorlib.com">
 
-<link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet" />
-<link href="/css/111/main.css" rel="stylesheet" />
+
 
 <link rel="stylesheet" type="text/css" href="/styles/bootstrap4/bootstrap.min.css">
 <link href="/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -21,6 +20,7 @@
 <link rel="stylesheet" type="text/css" href="/styles/responsive.css">
 
 
-
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet" />
+<link href="/css/111/main.css" rel="stylesheet" />
 
 
