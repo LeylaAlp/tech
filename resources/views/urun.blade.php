@@ -79,8 +79,12 @@
                     <br>
                     <br>
 
-                        <button type="button" class="btn btn-danger btn-md btn-block"><a class="active" href="#">Sepete Ekle</a></button>
-
+                    <form action="{{ route('sepet.ekle') }}" method="POST">
+                        @csrf
+                        <input type="hidden" name="id" value="{{ $urun->id }}">
+                        <button type="submit" class="btn btn-danger btn-md btn-block">
+                            Sepete Ekle</button>
+                    </form>
                 </div>
             </div>
 

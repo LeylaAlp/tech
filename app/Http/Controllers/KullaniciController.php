@@ -3,12 +3,15 @@
 namespace App\Http\Controllers;
 
 use App\Mail\KullaniciKayitMail;
+use App\Models\SepetUrun;
 use Illuminate\Http\Request;
 use App\Models\Kullanici;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
+use App\Models\Sepet;
+use Gloudemans\Shoppingcart\Facades\Cart;
 
 
 class KullaniciController extends Controller
@@ -17,7 +20,7 @@ class KullaniciController extends Controller
 
     public function __construct()
     {
-        $this->middleware('guest')->except('oturumukapat','aktiflestir');
+        $this->middleware('guest')->except('oturumukapat', 'aktiflestir');
     }
 
 
@@ -30,7 +33,6 @@ class KullaniciController extends Controller
     public function giris(Request $request)
     {
         $validate = $request->validate([
-
             'email' => 'required|email',
             'sifre' => 'required'
         ]);
@@ -38,19 +40,49 @@ class KullaniciController extends Controller
 
         if (Auth::attempt(['email' => $request->email, 'password' => $request->sifre], $request->has('beni_hatirla'))) {
 
+            $request->session()->regenerate();
+
+
+            //SEPET
+            $aktif_sepet_id = Sepet::firstOrCreate(['kullanici_id' => Auth::id()])->id;
+            session()->put('aktif_sepet_id', $aktif_sepet_id);
+
+
+            if (Cart::count() > 0) {
+
+                foreach (Cart::content() as $cartItem) {
+                    foreach ($sepet = SepetUrun::where(['sepet_id' => $aktif_sepet_id, 'urun_id' => $cartItem->id])->get() as $adet) {
+                        SepetUrun::updateOrCreate(
+                            ['sepet_id' => $aktif_sepet_id, 'urun_id' => $cartItem->id],
+                            ['adet' => $adet->adet + $cartItem->qty, 'fiyati' => $cartItem->price, 'durum' => 'Beklemede']
+                        );
+                    }
+                }
+            }
+
+
+            Cart::destroy();
+            $sepetUrunler = SepetUrun::with('urun')->where('sepet_id', $aktif_sepet_id)->get();
+            foreach ($sepetUrunler as $sepetUrun) {
+                Cart::add($sepetUrun->urun->id, $sepetUrun->urun->urun_adi, $sepetUrun->adet,
+                    $sepetUrun->fiyati, 0, ['slug' => $sepetUrun->urun->slug]);
+            }
+
+
+            // AKTİFLEŞTİR
             $kullanici = Auth::user();
-            $user = $kullanici->aktif_mi == 0;
 
-            if ($user) {
+            if ($kullanici->aktif_mi == 0) {
 
-                $request->session()->regenerate();
+                request()->session()->regenerate();
                 return redirect()->intended('/')
-                    ->with('message', 'Lütfen Size Gönderilen E-mailden aktivasyon işlemini gerçekleştiriniz')
-                    ->with('message_tur', 'warning');
-            } else {
+                    ->with('message', 'Lütfen Size Gönderilen E-postada ki Linke Tıklayarak Hesabınızı Aktifleştirin !!')
+                    ->with('message_tur', 'danger');
 
-                $request->session()->regenerate();
+            } else {
+                request()->session()->regenerate();
                 return redirect()->intended('/');
+
             }
 
 
