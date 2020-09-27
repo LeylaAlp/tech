@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08be21fd-16eb-43dc-a2ae-e175971fefc5" name="Default Changelist" comment="user">
-      <change afterPath="$PROJECT_DIR$/app/Models/Sepet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/SepetUrun.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_19_180338_create_sepet_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_19_182751_create_sepet_urun_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9405c02b-0f11-429f-9c38-58c8fa63d635.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9405c02b-0f11-429f-9c38-58c8fa63d635.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="08be21fd-16eb-43dc-a2ae-e175971fefc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/KullaniciController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/KullaniciController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SepetController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SepetController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sepet.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sepet.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/urun.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/urun.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -408,7 +387,7 @@
       <workItem from="1600709491510" duration="9548000" />
       <workItem from="1600748976451" duration="19287000" />
       <workItem from="1601140642624" duration="722000" />
-      <workItem from="1601181335998" duration="13648000" />
+      <workItem from="1601181335998" duration="14118000" />
     </task>
     <task id="LOCAL-00001" summary="ilk yükleme">
       <created>1598853574923</created>
@@ -445,11 +424,18 @@
       <option name="project" value="LOCAL" />
       <updated>1599978295913</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sepet alani bitti">
+      <created>1601215690239</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601215690239</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="372569000" />
+    <option name="totallyTimeSpent" value="373039000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -479,7 +465,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" sideWeight="0.49924356" visible="true" weight="0.41080198" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49924356" weight="0.41080198" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -542,7 +528,8 @@
     <MESSAGE value="olmuyor" />
     <MESSAGE value="kullanici alani" />
     <MESSAGE value="user" />
-    <option name="LAST_COMMIT_MESSAGE" value="user" />
+    <MESSAGE value="sepet alani bitti" />
+    <option name="LAST_COMMIT_MESSAGE" value="sepet alani bitti" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/Project_2018_06_10/resources/views/kullanici/oturumac.blade.php">
