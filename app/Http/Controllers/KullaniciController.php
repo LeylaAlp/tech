@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\KullaniciKayitMail;
+use App\Models\KullaniciDetay;
 use App\Models\SepetUrun;
 use Illuminate\Http\Request;
 use App\Models\Kullanici;
@@ -44,7 +45,12 @@ class KullaniciController extends Controller
 
 
             //SEPET
-            $aktif_sepet_id = Sepet::firstOrCreate(['kullanici_id' => Auth::id()])->id;
+//            $aktif_sepet_id = Sepet::firstOrCreate(['kullanici_id' => Auth::id()])->id;
+            $aktif_sepet_id = Sepet::aktif_sepet_id();
+            if (is_null($aktif_sepet_id)) {
+                $aktif_sepet = Sepet::create(['kullanici_id' => Auth::id()]);
+                $aktif_sepet_id = $aktif_sepet->id;
+            }
             session()->put('aktif_sepet_id', $aktif_sepet_id);
 
 
@@ -121,6 +127,8 @@ class KullaniciController extends Controller
             'aktif_mi' => 0
 
         ]);
+
+        $kullanici->detay()->save(new KullaniciDetay());
 
         Mail::to(request('email'))->send(new KullaniciKayitMail($kullanici));
 

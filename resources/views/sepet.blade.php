@@ -147,7 +147,7 @@
                             <li>KDV <span>{{ Cart::tax() }} ₺</span></li>
                             <li>Genel Toplam <span>{{ Cart::total() }} ₺</span></li>
                         </ul>
-                        <a href="#" class="primary-btn">Çıkışa Doğru Devam Et</a>
+                        <a href="{{ route('odeme') }}" class="primary-btn">Çıkışa Doğru Devam Et</a>
                     </div>
                 </div>
             </div>

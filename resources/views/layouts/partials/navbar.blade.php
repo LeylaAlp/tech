@@ -2,7 +2,31 @@
 
 <header class="header trans_300">
 
-    @if(session()->has('mesaj'))
+    @if(session()->has('me'))
+        <div class="alert alert-{{ session('me_tur') }} alert-dismissible fade show save" role="alert">
+            <strong>
+
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                {{ session('me') }}</strong>
+
+        </div>
+    @endif
+
+
+    @if(session()->has('mesajj'))
+        <div class="alert alert-{{ session('mesajj_tur') }} alert-dismissible fade show save" role="alert">
+            <strong>
+
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                {{ session('mesajj') }}</strong>
+
+        </div>
+    @endif
+
+
+@if(session()->has('mesaj'))
         <div class="alert alert-{{ session('mesaj_tur') }} alert-dismissible fade show save" role="alert">
             <strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -82,7 +106,7 @@
                                         </a>
                                 <ul class="account_selection">
 
-                                    <li><a href="#">Siparislerim</a></li>
+                                    <li><a href="{{ route('siparisler') }}">Siparislerim</a></li>
                                     <li><a href="#" onclick="event.preventDefault(); document.getElementById('logout-form').
 submit()">Çıkış</a>
                                         <form id="logout-form" action="{{ route('kullanici.oturumukapat') }}" method="POST" style="display: none;">

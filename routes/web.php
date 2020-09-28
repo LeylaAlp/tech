@@ -41,6 +41,7 @@ Route::group(['prefix' => 'sepet'] , function(){
 
 
 Route::get('odeme','OdemeController@index')->name('odeme');
+Route::post('odeme','OdemeController@odemeyap')->name('odemeyap');
 
 
 

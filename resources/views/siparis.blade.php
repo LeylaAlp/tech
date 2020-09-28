@@ -32,20 +32,6 @@
     <br>
     <br>
 
-    <!-- Breadcrumb Begin -->
-    <div class="breadcrumb-option">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb__links">
-                        <a href="./index.html"><i class="fa fa-home"></i> Home</a>
-                        <span>Shopping cart</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Breadcrumb End -->
 
     <!-- Shop Cart Section Begin -->
     <section class="shop-cart spad">
@@ -56,56 +42,52 @@
                         <table>
                             <thead>
                             <tr>
-                                <th>Product</th>
-                                <th>Price</th>
-                                <th>Quantity</th>
-                                <th>Total</th>
-                                <th>Durum</th>
+                                <th>Ürün</th>
+                                <th>Tutar</th>
+                                <th>Adet</th>
+                                <th>Ara Toplam</th>
+                                <th></th>
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td class="cart__product__item">
-                                    <img src="/images/cp-1.jpg" alt="">
-                                    <div class="cart__product__item__title">
-                                        <h6>Chain bucket bag</h6>
-                                        <div class="rating">
 
+                            @foreach($siparis->sepet->sepet_urunler as $sepet_urun)
+                                <tr>
+                                    <td class="cart__product__item">
+                                        <a href="{{ route('urun',$sepet_urun->urun->slug) }}"><img src="/images/cp-1.jpg" alt=""></a>
+                                        <div class="cart__product__item__title">
+                                            <h6><a href="{{ route('urun',$sepet_urun->urun->slug) }}">
+                                                    {{ $sepet_urun->urun->urun_adi }}</a></h6>
+                                            <div class="rating">
+
+                                            </div>
                                         </div>
-                                    </div>
-                                </td>
-                                <td class="cart__price">$ 150.0</td>
-                                <td class="cart__price">
-                                    <div>
-                                        <span>1</span>
-                                    </div>
-                                </td>
-                                <td class="cart__total">$ 300.0</td>
-                                <td>Toplam Tutar</td>
+                                    </td>
+                                    <td class="cart__price">{{ $sepet_urun->fiyati }} ₺</td>
+                                    <td class="cart__price">
+                                        <div>
+                                            <span> &nbsp; &nbsp; {{ $sepet_urun->adet }} adet</span>
+                                        </div>
+                                    </td>
+                                    <td class="cart__total">{{ $sepet_urun->fiyati * $sepet_urun->adet }} ₺</td>
+                                    <td>{{ $sepet_urun->durum }}</td>
 
-                            </tr>
+                                </tr>
+
+                            @endforeach
                             <tr>
-                                <th></th>
-                                <th></th>
-                                <th>Toplam Tutar (KDV Dahil)</th>
-                                <th>18.99</th>
-                                <th></th>
+                                <th colspan="3" class="text-right">Toplam Tutar</th>
+                                <td colspan="1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{{ $siparis->siparis_tutari }} ₺</td>
                             </tr>
 
                             <tr>
-                                <th></th>
-                                <th></th>
-                                <th>Kargo</th>
-                                <th>Ücretsiz</th>
-                                <th></th>
+                                <th colspan="3" class="text-right">Toplam Tutar (KDV'li)</th>
+                                <td colspan="1"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{{ $siparis->siparis_tutari * ((100+config('cart.tax'))/100) }} ₺</td>
                             </tr>
 
                             <tr>
-                                <th></th>
-                                <th></th>
-                                <th>Genel Toplam</th>
-                                <th>18.99</th>
-                                <th></th>
+                                <th colspan="3" class="text-right">Durum </th>
+                                <td colspan="1">&nbsp;&nbsp;&nbsp; {{ $siparis->durum }}</td>
                             </tr>
 
                             </tbody>

@@ -31,20 +31,6 @@
     <br>
     <br>
 
-    <!-- Breadcrumb Begin -->
-    <div class="breadcrumb-option">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb__links">
-                        <a href="./index.html"><i class="fa fa-home"></i> Home</a>
-                        <span>Shopping cart</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Breadcrumb End -->
 
     <!-- Shop Cart Section Begin -->
     <section class="shop-cart spad">
@@ -52,45 +38,49 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="shop__cart__table">
+
+                        @if(count($siparisler)==0)
+                            <img src="/images/siparis.png">
+                            @else
                         <table>
                             <thead>
                             <tr>
-                                <th>Product</th>
-                                <th>Price</th>
-                                <th>Quantity</th>
-                                <th>Total</th>
+                                <th>Sipariş Kodu</th>
+                                <th>Fiyat</th>
+                                <th>Toplam Ürün</th>
+                                <th>Durum</th>
                                 <th></th>
                             </tr>
                             </thead>
                             <tbody>
+
+
+                            @foreach($siparisler as $siparis)
                             <tr>
                                 <td class="cart__product__item">
-                                    <img src="/images/cp-1.jpg" alt="">
                                     <div class="cart__product__item__title">
-                                        <h6>Chain bucket bag</h6>
+                                        <h6> SP-000{{ $siparis->id }}</h6>
                                         <div class="rating">
-                                            {{--<i class="fa fa-star"></i>--}}
-                                            {{--<i class="fa fa-star"></i>--}}
-                                            {{--<i class="fa fa-star"></i>--}}
-                                            {{--<i class="fa fa-star"></i>--}}
-                                            {{--<i class="fa fa-star"></i>--}}
+
                                         </div>
                                     </div>
                                 </td>
-                                <td class="cart__price">$ 150.0</td>
+                                <td class="cart__price">{{ $siparis->siparis_tutari * ((100+config('cart.tax'))/100) }} ₺</td>
                                 <td class="cart__price">
                                     <div>
-                                       <span>1</span>
+                                       <span>&nbsp; &nbsp;{{ $siparis->sepet->sepet_urun_adet() }} adet</span>
                                     </div>
                                 </td>
-                                <td class="cart__total">$ 300.0</td>
+                                <td class="cart__total">{{ $siparis->durum }}</td>
                                 <td>
-                                    <button class="btn btn-dark btn-md" type="submit">Detay</button>
+                                    <button class="btn btn-dark btn-md" type="submit"><a href="{{ route('siparis',$siparis->id) }}">
+                                            Detay</a></button>
                                 </td>
                             </tr>
-
+@endforeach
                             </tbody>
                         </table>
+                            @endif
                     </div>
                 </div>
             </div>
