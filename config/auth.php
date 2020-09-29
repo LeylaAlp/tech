@@ -41,6 +41,12 @@ return [
             'provider' => 'users',
         ],
 
+
+        'yonetim' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
+
         'api' => [
             'driver' => 'token',
             'provider' => 'users',
