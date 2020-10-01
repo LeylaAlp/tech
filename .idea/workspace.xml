@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08be21fd-16eb-43dc-a2ae-e175971fefc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/kategori/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/kategori/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Kategori.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Kategori.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/tr/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/tr/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/yonetim/kullanici/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/yonetim/kullanici/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -411,7 +403,7 @@
       <workItem from="1601437428179" duration="12425000" />
       <workItem from="1601471301775" duration="15166000" />
       <workItem from="1601524290594" duration="10815000" />
-      <workItem from="1601570530425" duration="7611000" />
+      <workItem from="1601570530425" duration="7873000" />
     </task>
     <task id="LOCAL-00001" summary="ilk yükleme">
       <created>1598853574923</created>
@@ -469,11 +461,18 @@
       <option name="project" value="LOCAL" />
       <updated>1601529089036</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="kategori alanı bitti">
+      <created>1601579901635</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601579901682</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="473593000" />
+    <option name="totallyTimeSpent" value="473855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,7 +486,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.22995462" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.22995462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.502439" side_tool="true" weight="0.18910742" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -595,7 +594,8 @@
     <MESSAGE value=" yönetim alanı oluşturuldu" />
     <MESSAGE value="yönetim alanı oluşturuldu" />
     <MESSAGE value="yonetim kullanici bitti" />
-    <option name="LAST_COMMIT_MESSAGE" value="yonetim kullanici bitti" />
+    <MESSAGE value="kategori alanı bitti" />
+    <option name="LAST_COMMIT_MESSAGE" value="kategori alanı bitti" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/Login_v15/index.html" />
