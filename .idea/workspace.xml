@@ -2,433 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08be21fd-16eb-43dc-a2ae-e175971fefc5" name="Default Changelist" comment="yönetim alanı oluşturuldu">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Yonetim/AnasayfaController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Yonetim/KullaniciController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Yonetim.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/css/font-face.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/css/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-100.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-100.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-100.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-100.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-100.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-100italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-100italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-100italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-100italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-100italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-200.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-200.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-200.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-200.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-200.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-200italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-200italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-200italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-200italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-200italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-300.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-300.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-300.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-300.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-300.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-300italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-300italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-300italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-300italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-300italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-500.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-500.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-500.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-500.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-500.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-500italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-500italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-500italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-500italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-500italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-600.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-600.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-600.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-600.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-600.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-600italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-600italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-600italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-600italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-600italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-700.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-700.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-700.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-700.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-700.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-700italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-700italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-700italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-700italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-700italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-800.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-800.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-800.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-800.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-800.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-800italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-800italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-800italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-800italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-800italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-900italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-900italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-900italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-900italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-900italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/fonts/poppins/poppins-v5-latin-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/css/util.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/fonts/poppins/Poppins-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/images/bg-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/images/icons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/images/icons/map-marker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/js/map-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/animate/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/animsition/css/animsition.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/animsition/css/animsition.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/animsition/js/animsition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/animsition/js/animsition.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/bootstrap/js/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/countdowntime/countdowntime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/daterangepicker/daterangepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/daterangepicker/daterangepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/daterangepicker/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/daterangepicker/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/select2/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/form/vendor/select2/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/images/bg-title-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/images/bg-title-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/images/icon/Untitled-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/images/icon/avatar-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/images/icon/avatar-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/images/icon/avatar-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/images/icon/avatar-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/images/icon/avatar-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/images/icon/avatar-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/images/icon/avatar-big-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/images/icon/logo-blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/images/icon/logo-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/images/icon/logo-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/images/icon/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/js/bootstrap-datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/js/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/media/9606031aabebde32fa96edeff071a132.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/animsition/animsition.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/animsition/animsition.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/bootstrap-4.1/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/bootstrap-4.1/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/bootstrap-4.1/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/chartjs/Chart.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/circle-progress/circle-progress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/circle-progress/circle-progress.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/countdown/countdowntime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/countdown/jquery.countdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/countdown/moment-timezone-with-data.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/countdown/moment-timezone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/countdown/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/counter-up/jquery.counterup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/counter-up/jquery.waypoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/counter-up/waypoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-4.7/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-4.7/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-4.7/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-4.7/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-4.7/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-4.7/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-4.7/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/css/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/font-awesome-5/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/CHANGELOG.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/CONTRIBUTING.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/fullcalendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/fullcalendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/fullcalendar.print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/fullcalendar.print.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/gcal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/gcal.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/lib/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ar-dz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ar-kw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ar-ly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ar-ma.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ar-sa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ar-tn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/be.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/de-at.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/en-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/en-ie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/en-nz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/es-do.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/es-us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/fr-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/lb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ms-my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/nl-be.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/nn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/sr-cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/zh-hk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/fullcalendar-3.10.0/locale/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/dist/css/lightbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/dist/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/dist/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/dist/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/dist/images/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/dist/js/lightbox-plus-jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/dist/js/lightbox-plus-jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/dist/js/lightbox-plus-jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/dist/js/lightbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/dist/js/lightbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/dist/js/lightbox.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/src/css/lightbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/src/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/src/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/src/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/src/images/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/lightbox2/src/js/lightbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/mdi-font/css/material-design-iconic-font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/mdi-font/css/material-design-iconic-font.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/mdi-font/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/mdi-font/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/mdi-font/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/perfect-scrollbar/perfect-scrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/progressbar/progressbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/progressbar/progressbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/select2/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/slick/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/slick/config.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/slick/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/slick/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/slick/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/slick/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/slick/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/slick/slick-theme.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/slick/slick-theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/slick/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/slick/slick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/slick/slick.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/slick/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/slick/slick.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/smk-accordion/accordion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/smk-accordion/accordion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/smk-accordion/accordion.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/sweetalert/sweetalert.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/vector-map/jquery.vmap.brazil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/vector-map/jquery.vmap.europe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/vector-map/jquery.vmap.france.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/vector-map/jquery.vmap.germany.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/vector-map/jquery.vmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/vector-map/jquery.vmap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/vector-map/jquery.vmap.russia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/vector-map/jquery.vmap.sampledata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/vector-map/jquery.vmap.usa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/vector-map/jquery.vmap.world.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/vector-map/jqvmap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/wow/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/yonetim/vendor/wow/wow.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/anasayfa.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/head.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/oturumac.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9405c02b-0f11-429f-9c38-58c8fa63d635.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9405c02b-0f11-429f-9c38-58c8fa63d635.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/KullaniciTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/kullanici/form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/kullanici/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Yonetim/KullaniciController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Yonetim/KullaniciController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Kullanici.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Kullanici.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_13_065845_create_kullanici_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_13_065845_create_kullanici_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/yonetim/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -474,7 +58,7 @@
     <favorites_list name="Project" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -486,8 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>check</find>
-      <find>che</find>
       <find>cart_</find>
       <find>cart__q</find>
       <find>pro-</find>
@@ -516,6 +98,8 @@
       <find>qty</find>
       <find>total e</find>
       <find>logo</find>
+      <find>denied</find>
+      <find>basic</find>
     </findStrings>
     <dirStrings>
       <dir>C:\AppServ\www\Project\resources\views</dir>
@@ -534,12 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/layouts/partials/error.blade.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/resources/views/anasayfa.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/kullanici/kaydol.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Mail/KullaniciKayitMail.php" />
         <option value="$PROJECT_DIR$/resources/views/emails/kullanici_kayit.blade.php" />
@@ -569,22 +147,28 @@
         <option value="$PROJECT_DIR$/resources/views/siparis.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SiparisController.php" />
-        <option value="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/head.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/yonetim/layouts/master.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_09_13_065845_create_kullanici_table.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/config/auth.php" />
-        <option value="$PROJECT_DIR$/app/Models/Kullanici.php" />
-        <option value="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Yonetim/KullaniciController.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Yonetim.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Admin.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/yonetim/anasayfa.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Yonetim/AnasayfaController.php" />
         <option value="$PROJECT_DIR$/resources/views/yonetim/oturumac.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/yonetim/anasayfa.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/kullanici/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/yonetim/kullanici/form.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Kullanici.php" />
+        <option value="$PROJECT_DIR$/resources/views/yonetim/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/head.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php" />
+        <option value="$PROJECT_DIR$/database/seeds/KullaniciSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/KullaniciTableSeeder.php" />
+        <option value="$PROJECT_DIR$/resources/views/yonetim/kullanici/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Yonetim/KullaniciController.php" />
       </list>
     </option>
   </component>
@@ -695,8 +279,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-32" />
+    <option name="y" value="47" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -706,17 +290,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -724,31 +297,16 @@
               <item name="Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
             <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="yonetim" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="yonetim" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -767,14 +325,15 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\AppServ\www\Project\resources\views\yonetim\kullanici" />
+      <recent name="C:\AppServ\www\Project\app\Models" />
+      <recent name="C:\AppServ\www\Project\public\css\111" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\AppServ\www\Project\public\styles\bootstrap4" />
       <recent name="C:\AppServ\www\Project\public\js" />
       <recent name="C:\AppServ\www\Project\public\css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\AppServ\www\Project\app\Models" />
-      <recent name="C:\AppServ\www\Project\public\css\111" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -844,7 +403,10 @@
       <workItem from="1601268703004" duration="15306000" />
       <workItem from="1601314400716" duration="3975000" />
       <workItem from="1601351647590" duration="10483000" />
-      <workItem from="1601381013273" duration="5440000" />
+      <workItem from="1601381013273" duration="15866000" />
+      <workItem from="1601437428179" duration="12425000" />
+      <workItem from="1601471301775" duration="15166000" />
+      <workItem from="1601524290594" duration="3999000" />
     </task>
     <task id="LOCAL-00001" summary="ilk yükleme">
       <created>1598853574923</created>
@@ -899,7 +461,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="417150000" />
+    <option name="totallyTimeSpent" value="459166000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -913,7 +475,30 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.21785174" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.22692889" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.502439" side_tool="true" weight="0.18910742" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.3846154" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" sideWeight="0.49924356" visible="true" weight="0.41080198" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.20499243" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.22390318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.502439" side_tool="true" weight="0.18910742" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -934,7 +519,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.20499243" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1000,120 +585,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="yönetim alanı oluşturuldu" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/KategoriController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9405c02b-0f11-429f-9c38-58c8fa63d635/schema/ecommerce/table/urun">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_09_19_182751_create_sepet_urun_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding>
-            <element signature="e#7#52#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_09_27_174804_create_kullanici_detay_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/anasayfa.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1686">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/kullanici/oturumac.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/sepet.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="149" column="48" selection-start-line="149" selection-start-column="48" selection-end-line="149" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/odeme.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-470">
-          <caret line="42" column="76" lean-forward="true" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9405c02b-0f11-429f-9c38-58c8fa63d635/schema/ecommerce/table/kullanici_detay">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_09_27_170910_create_siparis_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
-          <folding>
-            <element signature="e#7#52#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/OdemeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9405c02b-0f11-429f-9c38-58c8fa63d635/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SepetController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#40#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/UrunDetay.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Kategori.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/KullaniciDetay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="das://9405c02b-0f11-429f-9c38-58c8fa63d635/schema/ecommerce/table/sepet">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1198,13 +674,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/Login_v15/index.html" />
-    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/layouts/partials/head.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AnasayfaController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1232,68 +701,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/layouts/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/KullaniciController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#40#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/error.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_09_13_065845_create_kullanici_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Kullanici.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
-          <folding>
-            <element signature="e#30#76#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1304,36 +718,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://9405c02b-0f11-429f-9c38-58c8fa63d635/schema/ecommerce/table/kullanici">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="161" column="75" selection-start-line="161" selection-start-column="75" selection-end-line="161" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#39#51#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#7#44#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1348,23 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Yonetim/AnasayfaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Yonetim/KullaniciController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -1375,17 +748,224 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Yonetim/AnasayfaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/yonetim/oturumac.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="72" column="11" lean-forward="true" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/CoolAdmin-master/CoolAdmin-master/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="443" column="49" lean-forward="true" selection-start-line="440" selection-start-column="11" selection-end-line="443" selection-end-column="49" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Project_2018_06_10/resources/views/yonetim/kullanici/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/CoolAdmin-master/CoolAdmin-master/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="541" column="43" selection-start-line="541" selection-end-line="809" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Project_2018_06_10/app/Http/Controllers/Yonetim/KullaniciController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="87" column="34" lean-forward="true" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/KullaniciDetay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/error.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/yonetim/anasayfa.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="100" column="18" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
+        <state relative-caret-position="70">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/kullanici/form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Kullanici.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="e#30#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/KullaniciController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
+          <folding>
+            <element signature="e#40#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/emvc/ecms son/resources/views/backend/settings/index.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SepetController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="e#40#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/emvc/ecms son/resources/views/backend/users/index.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/layouts/partials/head.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding>
+            <element signature="e#7#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UrunTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9405c02b-0f11-429f-9c38-58c8fa63d635/schema/ecommerce/table/kullanici">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9405c02b-0f11-429f-9c38-58c8fa63d635/schema/ecommerce/table/kullanici_detay">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/KullaniciTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/kullanici/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Yonetim/KullaniciController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+          <folding>
+            <element signature="e#48#84#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

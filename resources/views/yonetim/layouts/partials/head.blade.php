@@ -1,3 +1,24 @@
+<script src="/yonetim/vendor/jquery-3.2.1.min.js"></script>
+<script src="/yonetim/vendor/counter-up/jquery.waypoints.min.js"></script>
+<script src="/yonetim/vendor/counter-up/jquery.counterup.min.js">
+</script>
+
+<!-- ALERTIFY -->
+<!-- JavaScript -->
+<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+<!-- Default theme -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+<!-- Semantic UI theme -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+<!-- Bootstrap theme -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+<!-- Main JS-->
+<!-- ALERTIFY -->
+
+
 <!-- Fontfaces CSS-->
 <link href="/yonetim/css/font-face.css" rel="stylesheet" media="all">
 <link href="/yonetim/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
@@ -18,3 +39,6 @@
 
 <!-- Main CSS-->
 <link href="/yonetim/css/theme.css" rel="stylesheet" media="all">
+
+
+

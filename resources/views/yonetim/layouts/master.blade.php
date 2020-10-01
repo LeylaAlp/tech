@@ -25,7 +25,6 @@
     @include('yonetim.layouts.partials.sidebar')
 
    @yield('content')
-
 </div>
 
 
@@ -37,7 +36,6 @@
 </div>
 
 <!-- Jquery JS-->
-<script src="/yonetim/vendor/jquery-3.2.1.min.js"></script>
 <!-- Bootstrap JS-->
 <script src="/yonetim/vendor/bootstrap-4.1/popper.min.js"></script>
 <script src="/yonetim/vendor/bootstrap-4.1/bootstrap.min.js"></script>
@@ -48,16 +46,13 @@
 <script src="/yonetim/vendor/animsition/animsition.min.js"></script>
 <script src="/yonetim/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
 </script>
-<script src="/yonetim/vendor/counter-up/jquery.waypoints.min.js"></script>
-<script src="/yonetim/vendor/counter-up/jquery.counterup.min.js">
-</script>
+
 <script src="/yonetim/vendor/circle-progress/circle-progress.min.js"></script>
 <script src="/yonetim/vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
 <script src="/yonetim/vendor/chartjs/Chart.bundle.min.js"></script>
 <script src="/yonetim/vendor/select2/select2.min.js">
 </script>
 
-<!-- Main JS-->
 <script src="/yonetim/js/main.js"></script>
 
 @yield('footer')
