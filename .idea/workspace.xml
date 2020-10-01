@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08be21fd-16eb-43dc-a2ae-e175971fefc5" name="Default Changelist" comment="yönetim alanı oluşturuldu">
-      <change afterPath="$PROJECT_DIR$/database/seeds/KullaniciTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/kullanici/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/kullanici/index.blade.php" afterDir="false" />
+    <list default="true" id="08be21fd-16eb-43dc-a2ae-e175971fefc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/kategori/form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/kategori/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Yonetim/KullaniciController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Yonetim/KullaniciController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Kullanici.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Kullanici.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/yonetim/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Kategori.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Kategori.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/tr/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/tr/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/yonetim/kullanici/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/yonetim/kullanici/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -50,6 +47,13 @@
         <item name="ecommerce@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="ecommerce: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ecommerce@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ecommerce: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="kategori: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -118,11 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Mail/KullaniciKayitMail.php" />
-        <option value="$PROJECT_DIR$/resources/views/emails/kullanici_kayit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
         <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_09_19_180338_create_sepet_table.php" />
@@ -156,19 +155,24 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Yonetim/AnasayfaController.php" />
         <option value="$PROJECT_DIR$/resources/views/yonetim/oturumac.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/kullanici/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/yonetim/kullanici/form.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/Kullanici.php" />
         <option value="$PROJECT_DIR$/resources/views/yonetim/layouts/master.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/head.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php" />
         <option value="$PROJECT_DIR$/database/seeds/KullaniciSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/KullaniciTableSeeder.php" />
-        <option value="$PROJECT_DIR$/resources/views/yonetim/kullanici/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Yonetim/KullaniciController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/yonetim/kullanici/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/lang/tr/validation.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/app/Models/Kategori.php" />
+        <option value="$PROJECT_DIR$/resources/views/yonetim/kategori/form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/yonetim/kategori/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Yonetim/KategoriController.php" />
       </list>
     </option>
   </component>
@@ -278,7 +282,7 @@
       <path value="$PROJECT_DIR$/vendor/bumbummen99/shoppingcart" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-32" />
     <option name="y" value="47" />
     <option name="width" value="1382" />
@@ -406,7 +410,8 @@
       <workItem from="1601381013273" duration="15866000" />
       <workItem from="1601437428179" duration="12425000" />
       <workItem from="1601471301775" duration="15166000" />
-      <workItem from="1601524290594" duration="3999000" />
+      <workItem from="1601524290594" duration="10815000" />
+      <workItem from="1601570530425" duration="7611000" />
     </task>
     <task id="LOCAL-00001" summary="ilk yükleme">
       <created>1598853574923</created>
@@ -457,11 +462,18 @@
       <option name="project" value="LOCAL" />
       <updated>1601317545231</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="yonetim kullanici bitti">
+      <created>1601529089036</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601529089036</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="459166000" />
+    <option name="totallyTimeSpent" value="473593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,7 +487,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.22692889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.22995462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.502439" side_tool="true" weight="0.18910742" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -491,7 +503,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" sideWeight="0.49924356" visible="true" weight="0.41080198" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49924356" weight="0.41080198" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -582,97 +594,10 @@
     <MESSAGE value=" yönetim alanı(yüzeysel) oluşturuldu" />
     <MESSAGE value=" yönetim alanı oluşturuldu" />
     <MESSAGE value="yönetim alanı oluşturuldu" />
-    <option name="LAST_COMMIT_MESSAGE" value="yönetim alanı oluşturuldu" />
+    <MESSAGE value="yonetim kullanici bitti" />
+    <option name="LAST_COMMIT_MESSAGE" value="yonetim kullanici bitti" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Models/UrunDetay.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Kategori.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://9405c02b-0f11-429f-9c38-58c8fa63d635/schema/ecommerce/table/sepet">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9405c02b-0f11-429f-9c38-58c8fa63d635/schema/ecommerce/table/sepet_urun">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/siparisler.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
-          <folding>
-            <element signature="e#2708#2714#0#HTML" expanded="true" />
-            <element signature="e#2715#2721#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Siparis.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#30#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/SepetUrun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#30#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Urun.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Sepet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#30#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/siparis.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="56" column="133" selection-start-line="56" selection-start-column="133" selection-end-line="56" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9405c02b-0f11-429f-9c38-58c8fa63d635/schema/ecommerce/table/siparis">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SiparisController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/Login_v15/index.html" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AnasayfaController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -785,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/CoolAdmin-master/CoolAdmin-master/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -816,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/KullaniciDetay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/error.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -834,23 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/kullanici/form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Kullanici.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="e#30#76#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -897,23 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-          <folding>
-            <element signature="e#7#44#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/UrunTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -952,17 +829,234 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="41" column="85" selection-start-line="41" selection-start-column="85" selection-end-line="41" selection-end-column="85" />
+          <folding>
+            <element signature="e#7#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/layouts/partials/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/yonetim/kullanici/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="138">
+          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/kullanici/form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="31" column="44" selection-end-line="172" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Yonetim/KullaniciController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+        <state relative-caret-position="189">
+          <caret line="111" column="43" lean-forward="true" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
+          <folding>
+            <element signature="e#48#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/tr/validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9405c02b-0f11-429f-9c38-58c8fa63d635/schema/ecommerce/table/kategori_urun">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9405c02b-0f11-429f-9c38-58c8fa63d635/schema/ecommerce/table/kategori">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Kategori.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Kullanici.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="e#30#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/KullaniciDetay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Sepet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#30#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/SepetUrun.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Siparis.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/UrunDetay.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Urun.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/kategori/form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="59" column="53" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="59" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/yonetim/kategori/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="62" column="49" lean-forward="true" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
+          <folding>
+            <element signature="e#759#765#0#HTML" expanded="true" />
+            <element signature="e#1217#1223#0#HTML" expanded="true" />
+            <element signature="e#1259#1265#0#HTML" expanded="true" />
+            <element signature="e#3292#3298#0#HTML" expanded="true" />
+            <element signature="e#3298#3304#0#HTML" expanded="true" />
+            <element signature="e#3304#3310#0#HTML" expanded="true" />
+            <element signature="e#3310#3316#0#HTML" expanded="true" />
+            <element signature="e#3316#3322#0#HTML" expanded="true" />
+            <element signature="e#3322#3328#0#HTML" expanded="true" />
+            <element signature="e#3328#3334#0#HTML" expanded="true" />
+            <element signature="e#3334#3340#0#HTML" expanded="true" />
+            <element signature="e#3340#3346#0#HTML" expanded="true" />
+            <element signature="e#3346#3352#0#HTML" expanded="true" />
+            <element signature="e#3352#3358#0#HTML" expanded="true" />
+            <element signature="e#3358#3364#0#HTML" expanded="true" />
+            <element signature="e#3364#3370#0#HTML" expanded="true" />
+            <element signature="e#3370#3376#0#HTML" expanded="true" />
+            <element signature="e#3376#3382#0#HTML" expanded="true" />
+            <element signature="e#3382#3388#0#HTML" expanded="true" />
+            <element signature="e#3388#3394#0#HTML" expanded="true" />
+            <element signature="e#3394#3400#0#HTML" expanded="true" />
+            <element signature="e#3400#3406#0#HTML" expanded="true" />
+            <element signature="e#3406#3412#0#HTML" expanded="true" />
+            <element signature="e#3412#3418#0#HTML" expanded="true" />
+            <element signature="e#3418#3424#0#HTML" expanded="true" />
+            <element signature="e#3424#3430#0#HTML" expanded="true" />
+            <element signature="e#3430#3436#0#HTML" expanded="true" />
+            <element signature="e#3436#3442#0#HTML" expanded="true" />
+            <element signature="e#3442#3448#0#HTML" expanded="true" />
+            <element signature="e#3448#3454#0#HTML" expanded="true" />
+            <element signature="e#3602#3608#0#HTML" expanded="true" />
+            <element signature="e#3608#3614#0#HTML" expanded="true" />
+            <element signature="e#3614#3620#0#HTML" expanded="true" />
+            <element signature="e#3620#3626#0#HTML" expanded="true" />
+            <element signature="e#3626#3632#0#HTML" expanded="true" />
+            <element signature="e#3632#3638#0#HTML" expanded="true" />
+            <element signature="e#3638#3644#0#HTML" expanded="true" />
+            <element signature="e#3696#3702#0#HTML" expanded="true" />
+            <element signature="e#3702#3708#0#HTML" expanded="true" />
+            <element signature="e#3708#3714#0#HTML" expanded="true" />
+            <element signature="e#3714#3720#0#HTML" expanded="true" />
+            <element signature="e#3720#3726#0#HTML" expanded="true" />
+            <element signature="e#3726#3732#0#HTML" expanded="true" />
+            <element signature="e#3732#3738#0#HTML" expanded="true" />
+            <element signature="e#3790#3796#0#HTML" expanded="true" />
+            <element signature="e#3796#3802#0#HTML" expanded="true" />
+            <element signature="e#3802#3808#0#HTML" expanded="true" />
+            <element signature="e#3808#3814#0#HTML" expanded="true" />
+            <element signature="e#3814#3820#0#HTML" expanded="true" />
+            <element signature="e#3820#3826#0#HTML" expanded="true" />
+            <element signature="e#3826#3832#0#HTML" expanded="true" />
+            <element signature="e#3821#3827#0#HTML" expanded="true" />
+            <element signature="e#3827#3833#0#HTML" expanded="true" />
+            <element signature="e#3833#3839#0#HTML" expanded="true" />
+            <element signature="e#3839#3845#0#HTML" expanded="true" />
+            <element signature="e#3845#3851#0#HTML" expanded="true" />
+            <element signature="e#3851#3857#0#HTML" expanded="true" />
+            <element signature="e#3857#3863#0#HTML" expanded="true" />
+            <element signature="e#3911#3917#0#HTML" expanded="true" />
+            <element signature="e#3917#3923#0#HTML" expanded="true" />
+            <element signature="e#3923#3929#0#HTML" expanded="true" />
+            <element signature="e#3929#3935#0#HTML" expanded="true" />
+            <element signature="e#3935#3941#0#HTML" expanded="true" />
+            <element signature="e#3941#3947#0#HTML" expanded="true" />
+            <element signature="e#3947#3953#0#HTML" expanded="true" />
+            <element signature="e#3953#3959#0#HTML" expanded="true" />
+            <element signature="e#3959#3965#0#HTML" expanded="true" />
+            <element signature="e#3965#3971#0#HTML" expanded="true" />
+            <element signature="e#3971#3977#0#HTML" expanded="true" />
+            <element signature="e#3977#3983#0#HTML" expanded="true" />
+            <element signature="e#3983#3989#0#HTML" expanded="true" />
+            <element signature="e#3989#3995#0#HTML" expanded="true" />
+            <element signature="e#4043#4049#0#HTML" expanded="true" />
+            <element signature="e#4049#4055#0#HTML" expanded="true" />
+            <element signature="e#4055#4061#0#HTML" expanded="true" />
+            <element signature="e#4061#4067#0#HTML" expanded="true" />
+            <element signature="e#4067#4073#0#HTML" expanded="true" />
+            <element signature="e#4073#4079#0#HTML" expanded="true" />
+            <element signature="e#4079#4085#0#HTML" expanded="true" />
+            <element signature="e#4085#4091#0#HTML" expanded="true" />
+            <element signature="e#4091#4097#0#HTML" expanded="true" />
+            <element signature="e#4097#4103#0#HTML" expanded="true" />
+            <element signature="e#4103#4109#0#HTML" expanded="true" />
+            <element signature="e#4109#4115#0#HTML" expanded="true" />
+            <element signature="e#4115#4121#0#HTML" expanded="true" />
+            <element signature="e#4121#4127#0#HTML" expanded="true" />
+            <element signature="e#3884#3890#0#HTML" expanded="true" />
+            <element signature="e#3890#3896#0#HTML" expanded="true" />
+            <element signature="e#3896#3902#0#HTML" expanded="true" />
+            <element signature="e#3902#3908#0#HTML" expanded="true" />
+            <element signature="e#3908#3914#0#HTML" expanded="true" />
+            <element signature="e#3914#3920#0#HTML" expanded="true" />
+            <element signature="e#3920#3926#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Yonetim/KategoriController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
             <element signature="e#48#84#0#PHP" expanded="true" />
           </folding>

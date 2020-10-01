@@ -1,7 +1,9 @@
 @extends('yonetim.layouts.master')
-@section('title','Kullanıcı')
+@section('title','Kategori')
 
 @section('content')
+
+
 
     <div class="page-container">
 
@@ -11,27 +13,32 @@
                 <div class="container-fluid">
 
 
-
-
-
                     <div class="row">
                         <div class="col-md-12">
                             <div class="overview-wrap">
 
 
-                                <form class="form-header" action="{{ route('yonetim.kullanici') }}" method="POST">
+                                <form class="form-header" action="{{ route('yonetim.kategori') }}" method="POST">
                                     @csrf
                                     <input class="au-input au-input--xl" type="text" name="aranan" value="{{ old('aranan') }}" placeholder="Ad, Email Ara.." />
+&nbsp;
+                                    <select name="ust_id"  class="form-control">
+                                        <option value="">Seçiniz</option>
+                                        @foreach($anakategoriler as $kategori)
+                                            <option value="{{ $kategori->id }}" {{ old('ust_id') == $kategori->id ? 'selected': '' }}>{{ $kategori->kategori_adi }}</option>
+                                        @endforeach
+                                    </select>
+                                    &nbsp;&nbsp;
+
                                     <button class="au-btn--submit" type="submit">
                                         <i class="zmdi zmdi-search"></i>
                                     </button>
-                                    <a href="{{ route('yonetim.kullanici') }}"><button class="au-btn--submit" type="submit">
+                                    <a href="{{ route('yonetim.kategori') }}"><button class="au-btn--submit" type="submit">
                                             <span>  Temizle </span>
                                         </button></a>
 
                                 </form>
-
-                                <a href="{{ route('yonetim.kullanici.yeni') }}">
+                                <a href="{{ route('yonetim.kategori.yeni') }}">
                                     <button class="btn btn-primary btn-md">
                                         <i class="zmdi zmdi-plus"></i> Yeni
                                     </button>
@@ -48,39 +55,39 @@
                                     <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Ad Soyad</th>
-                                        <th>Email</th>
-                                        <th>Aktif Mi</th>
-                                        <th>Yönetici Mi</th>
+                                        <th>Slug</th>
+                                        <th>Üst Kategori</th>
+                                        <th>Kategori Adı</th>
                                         <th>Kayıt Tarihi</th>
                                         <th></th>
                                         <th></th>
                                     </tr>
                                     </thead>
                                     <tbody>
+
+                                    @if(count($list)==0)
+                                        <td colspan="7">
+                                           <h4> Kayıt Bulunamadı&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                                        </td>
+                                        @else
                                     @foreach($list as $entry)
                                         <tr>
                                             <td>{{ $entry->id }}</td>
-                                            <td>{{ $entry->adsoyad }}</td>
-                                            <td>{{ $entry->email }}</td>
-                                            <td>
-                                                @if($entry->aktif_mi)
-                                                    <span class="btn-outline-success">Aktif</span>
-                                                @else
-                                                    <span class="btn-outline-danger">Pasif</span>
-                                                @endif
-                                            </td>
-                                            <td>
-                                                @if($entry->yonetici_mi)
-                                                    <span class="btn-outline-success">Yönetici</span>
-                                                @else
-                                                    <span class="btn-outline-danger">Müşteri</span>
-                                                @endif
-                                            </td>
+                                            <td>{{ $entry->slug }}</td>
+                                            <td>{{ $entry->ust_kategori->kategori_adi }}</td>
+                                            <td>{{ $entry->kategori_adi }}</td>
                                             <td>{{ $entry->olusturulma_tarihi }}</td>
 
                                             <td>
-                                                <a href="{{ route('yonetim.kullanici.duzenle',$entry->id) }}"><span
+                                                <a href="{{ route('yonetim.kategori.duzenle',$entry->id) }}"><span
                                                         class="btn-outline-success">Düzenle</span></a>
                                             </td>
 
@@ -91,6 +98,7 @@
                                         </tr>
 
                                     @endforeach
+                                        @endif
                                     </tbody>
                                 </table>
                             </div>
@@ -111,7 +119,7 @@
             destroy_id = $(this).attr('id');
             alertify.confirm('Silme İşlemini Onaylayın', 'Bu işlem Geri Alınamaz!',
                 function () {
-                    location.href = "/yonetim/kullanici/sil/" + destroy_id;
+                    location.href = "/yonetim/kategori/sil/" + destroy_id;
 
                 },
                 function () {

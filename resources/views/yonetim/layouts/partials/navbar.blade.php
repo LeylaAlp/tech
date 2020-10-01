@@ -4,17 +4,10 @@
         <div class="container-fluid">
             <div class="header-wrap">
 
-                <form class="form-header" action="{{ route('yonetim.kullanici') }}" method="POST">
-                    @csrf
-                    <input class="au-input au-input--xl" type="text" name="aranan" value="{{ old('aranan') }}" placeholder="Ad, Email Ara.." />
-                    <button class="au-btn--submit" type="submit">
-                        <i class="zmdi zmdi-search"></i>
-                    </button>
-                    <a href="{{ route('yonetim.kullanici') }}"><button class="au-btn--submit" type="submit">
-                       <span>  Temizle </span>
-                    </button></a>
 
+                <form class="form-header" action="" method="POST">
                 </form>
+
 
                 <div class="header-button">
                     <div class="noti-wrap">

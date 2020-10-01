@@ -17,8 +17,8 @@
                         <i class="fas fa-users"></i>Kullanıcılar</a>
                 </li>
                 <li>
-                    <a href="table.html">
-                        <i class="fas fa-table"></i>Tables</a>
+                    <a href="{{ route('yonetim.kategori') }}">
+                        <i class="fas fa-table"></i>Kategoriler</a>
                 </li>
                 <li>
                     <a href="form.html">

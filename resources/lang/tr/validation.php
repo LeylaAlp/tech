@@ -138,6 +138,7 @@ return [
     'attributes' => [
         'email' => 'E-mail',
         'sifre' => 'Şifre',
-        'adsoyad' => 'Ad Soyad'
+        'adsoyad' => 'Ad Soyad',
+        'slug' => 'Slug'
     ],
 ];
