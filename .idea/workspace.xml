@@ -2,94 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08be21fd-16eb-43dc-a2ae-e175971fefc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Yonetim/UrunController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/lfm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/1-1602049693.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/10-1602049504.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/11-1602049350.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/12-1602049326.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/13-1602049305.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/14-1602049276.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/15-1602049221.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/16-1602049199.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/17-1602049175.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/18-1602049153.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/19-1602049133.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/2-1602049672.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/20-1602049112.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/21-1602046718.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/22-1602046700.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/23-1602046666.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/24-1602046648.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/25-1602046629.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/26-1602046607.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/27-1602046584.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/28-1602046562.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/29-1602046540.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/3-1602049653.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/30-1602046466.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/32-1602044077.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/4-1602049633.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/40-1602044286.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/40-1602045635.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/42-1602051490.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/43-1602051436.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/44-1602051441.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/45-1602051408.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/46-1602051392.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/47-1602051371.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/48-1602051353.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/49-1602051339.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/5-1602049613.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/50-1602051321.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/51-1602051122.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/52-1602051234.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/53-1602051217.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/54-1602051201.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/55-1602051188.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/56-1602051172.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/57-1602051159.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/58-1602051147.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/6-1602049470.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/8-1602049424.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/urunler/9-1602049405.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/cropper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/dropzone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/lfm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/mime-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/files/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/files/adobe.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/files/folder-1/sleeping-dog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/files/word.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/images/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/images/test-folder/sleeping-dog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/images/test-folder/thumbs/sleeping-dog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/152px color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/72px color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/92px color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/Logomark color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/folder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/loader.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/cropper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/dropzone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/stand-alone-button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/urun/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/yonetim/urun/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9405c02b-0f11-429f-9c38-58c8fa63d635.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9405c02b-0f11-429f-9c38-58c8fa63d635.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Urun.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Urun.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/UrunDetay.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/UrunDetay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_09_191114_create_urun_detay_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_09_191114_create_urun_detay_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/anasayfa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/anasayfa.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/yonetim/layouts/partials/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -356,7 +269,7 @@
       <path value="$PROJECT_DIR$/vendor/unisharp/laravel-filemanager" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-32" />
     <option name="y" value="47" />
     <option name="width" value="1382" />
@@ -503,7 +416,7 @@
       <workItem from="1601957143070" duration="8139000" />
       <workItem from="1601988479388" duration="11451000" />
       <workItem from="1602042693620" duration="8241000" />
-      <workItem from="1602086711631" duration="9187000" />
+      <workItem from="1602086711631" duration="9375000" />
     </task>
     <task id="LOCAL-00001" summary="ilk yükleme">
       <created>1598853574923</created>
@@ -568,11 +481,18 @@
       <option name="project" value="LOCAL" />
       <updated>1601579901682</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="urun alanı bitti ama eklemeler yapılacak">
+      <created>1602101689910</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602101689910</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="523084000" />
+    <option name="totallyTimeSpent" value="523272000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -584,7 +504,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.2322239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -695,7 +615,8 @@
     <MESSAGE value="yönetim alanı oluşturuldu" />
     <MESSAGE value="yonetim kullanici bitti" />
     <MESSAGE value="kategori alanı bitti" />
-    <option name="LAST_COMMIT_MESSAGE" value="kategori alanı bitti" />
+    <MESSAGE value="urun alanı bitti ama eklemeler yapılacak" />
+    <option name="LAST_COMMIT_MESSAGE" value="urun alanı bitti ama eklemeler yapılacak" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/Project_2018_06_10/resources/views/yonetim/kullanici/index.blade.php">
