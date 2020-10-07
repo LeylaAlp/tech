@@ -172,7 +172,8 @@
                                 <div class="product-item">
                                     <div class="product discount">
                                         <div class="product_image">
-                                            <a href="{{ route('urun',$cok_satan->slug) }}"><img src="/images/product_1.png" alt=""></a>
+                                            <a href="{{ route('urun',$cok_satan->slug) }}"><img style="height:250px;" src="{{ $cok_satan->detay->urun_resmi!=null ?
+                                             asset('/images/urunler/'.$cok_satan->detay->urun_resmi) : 'http://via.placeholder.com/400x485?text=UrunResmi'}}"></a>
                                         </div>
                                         <div class="favorite favorite_left"></div>
                                         {{--<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>--}}

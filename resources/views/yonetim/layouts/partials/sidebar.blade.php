@@ -21,8 +21,8 @@
                         <i class="fas fa-table"></i>Kategoriler</a>
                 </li>
                 <li>
-                    <a href="form.html">
-                        <i class="far fa-check-square"></i>Forms</a>
+                    <a href="{{ route('yonetim.urun') }}">
+                        <i class="fa fa-square"></i>Ürünler</a>
                 </li>
                 <li>
                     <a href="calendar.html">

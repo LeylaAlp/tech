@@ -1789,21 +1789,26 @@
       <DefaultExpression>0</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="399" parent="290" name="urun_detay_urun_id_unique">
+    <column id="399" parent="290" name="urun_resmi">
+      <Position>8</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="400" parent="290" name="urun_detay_urun_id_unique">
       <ColNames>urun_id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="400" parent="290" name="PRIMARY">
+    <key id="401" parent="290" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="401" parent="290" name="urun_detay_urun_id_unique">
+    <key id="402" parent="290" name="urun_detay_urun_id_unique">
       <ColNames>urun_id</ColNames>
       <UnderlyingIndexName>urun_detay_urun_id_unique</UnderlyingIndexName>
     </key>
-    <foreign-key id="402" parent="290" name="urun_detay_urun_id_foreign">
+    <foreign-key id="403" parent="290" name="urun_detay_urun_id_foreign">
       <ColNames>urun_id</ColNames>
       <RefSchemaName>ecommerce</RefSchemaName>
       <RefTableName>urun</RefTableName>
