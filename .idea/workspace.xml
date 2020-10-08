@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08be21fd-16eb-43dc-a2ae-e175971fefc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="08be21fd-16eb-43dc-a2ae-e175971fefc5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,11 +297,6 @@
               <item name="Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -413,7 +406,7 @@
       <workItem from="1602086711631" duration="9690000" />
       <workItem from="1602130286059" duration="8346000" />
       <workItem from="1602140243518" duration="2436000" />
-      <workItem from="1602168463095" duration="1286000" />
+      <workItem from="1602168463095" duration="1532000" />
     </task>
     <task id="LOCAL-00001" summary="ilk yükleme">
       <created>1598853574923</created>
@@ -499,11 +492,18 @@
       <option name="project" value="LOCAL" />
       <updated>1602169048226</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="workk">
+      <created>1602170226174</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602170226174</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="535655000" />
+    <option name="totallyTimeSpent" value="535901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -515,7 +515,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.24357034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -606,7 +606,8 @@
     <MESSAGE value="urun alanı bitti ama eklemeler yapılacak" />
     <MESSAGE value="deneme" />
     <MESSAGE value="work" />
-    <option name="LAST_COMMIT_MESSAGE" value="work" />
+    <MESSAGE value="workk" />
+    <option name="LAST_COMMIT_MESSAGE" value="workk" />
   </component>
   <component name="WindowStateProjectService">
     <state width="179" height="154" key="Git.Branch.Popup" />
@@ -1056,7 +1057,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4242" />
+        <state relative-caret-position="18054">
+          <caret line="1062" column="10" lean-forward="true" selection-start-line="1062" selection-start-column="10" selection-end-line="1062" selection-end-column="10" />
+        </state>
       </provider>
     </entry>
   </component>
