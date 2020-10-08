@@ -15,6 +15,13 @@ use Illuminate\Support\Facades\Auth;
 */
 
 
+
+Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'yonetim']], function () {
+    \UniSharp\LaravelFilemanager\Lfm::routes();
+});
+
+
+
 Route::group(['prefix' => 'yonetim', 'namespace' => 'Yonetim'], function () {
 //    Route::redirect('/','/yonetim/oturumac');
     Route::group(['middleware' => 'admin'], function () {
